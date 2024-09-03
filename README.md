@@ -1,18 +1,52 @@
-# Convex Tour Chat
+# Convex Chat Application
 
-This is a sample app used in the convex tutorial to show off the fundamentals of
-the Convex platform.
+This is a simple real-time chat application built using React for the frontend and Convex for the backend.
 
-[Go check out the tutorial](https://convex.dev/start)
+## Features
 
-Jump into any particular step of the tutorial with a branch:
+- Real-time messaging
+- Automatic scrolling to the latest messages
+- Random user name generation for demo purposes
+- Responsive design
 
-1.  Simple chat app with message display order bug (branch = main, 0-start)
-1.  Simple chat app with correct message display (branch = 1-smileys)
-1.  Enhanced chat app a "likes" feature added (branch = 2-likes)
-1.  Enhanced chat app with an AI integration (branch = 3-ai)
+## Prerequisites
 
-# To run
+- Node.js (version 14 or higher recommended)
+- npm (comes with Node.js)
 
-    $ npm i
-    $ npm run dev
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/convex-chat-application.git
+   cd convex-chat-application
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+## Running the Application
+
+To run the application locally:
+
+```
+npm run dev
+
+```
+This command will start both the frontend and backend concurrently.
+
+## Project Structure
+
+- `src/`: Contains the React frontend code
+- `convex/`: Contains the Convex backend code
+- `public/`: Static assets
+
+## Technologies Used
+
+- React
+- Vite
+- Convex
+- TypeScript
+- Faker.js (for generating random user names)
